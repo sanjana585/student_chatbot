@@ -1,0 +1,274 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Hi there",
+        "Greetings",
+        "What's up",
+        "Heya",
+        "Hello bot"
+      ],
+      "responses": [
+        "Hello! Welcome to the college inquiry bot. How can I help you today?",
+        "Hi there! What information do you need about the college?",
+        "Greetings! How may I assist you with your college queries?",
+        "Hey! Feel free to ask me about courses, fees, placements, or facilities.",
+        "Good day! How can I help you explore our campus?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Ok bye",
+        "Thanks bye",
+        "I am leaving",
+        "Catch you later",
+        "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Feel free to ask if you have more questions.",
+        "Have a great day ahead!",
+        "Bye! Good luck with your studies and career.",
+        "See you later! Don't hesitate to return if you need more info.",
+        "Take care! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot",
+        "Much appreciated",
+        "Awesome, thanks",
+        "Thank you so much",
+        "Great, thanks"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you need anything else.",
+        "Anytime! I'm here to help.",
+        "Glad I could help!",
+        "Happy to assist you!",
+        "You're very welcome. Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "What are the branches available?",
+        "Tell me about B.Tech programs",
+        "Which degrees are available?",
+        "List of courses",
+        "What can I study there?",
+        "Engineering branches",
+        "Do you have computer science?"
+      ],
+      "responses": [
+        "We offer B.Tech programs in Computer Science (CSE), Electronics and Communication (ECE), Mechanical Engineering (ME), and Civil Engineering (CE). We also have postgraduate MBA and MCA programs.",
+        "Available B.Tech branches include CSE, IT, ECE, EEE, Mechanical, and Civil Engineering.",
+        "Our flagship programs are the B.Tech degrees across core engineering disciplines (CSE, ME, CE, ECE). Check our website for detailed syllabi.",
+        "You can pursue B.Tech, M.Tech, MBA, and MCA degrees here. Which one are you interested in?"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the college fees?",
+        "Tell me about tuition fees",
+        "What are the hostel fees?",
+        "Fee details please",
+        "Cost of studying",
+        "How much does it cost?",
+        "Semester fees"
+      ],
+      "responses": [
+        "The tuition fee for B.Tech programs is approximately $5000 per year. Hostel accommodations cost an additional $1500 per year. For an exact breakdown, please contact the administration.",
+        "B.Tech fees are around $5000/year. Scholarships and financial aid are available for meritorious students.",
+        "Our general fee structure is $5000 per annum for tuition, and $1500 for hostel/mess. Semester-wise payment options are available.",
+        "Fees vary slightly by branch, but average $5000 a year for undergrads. You can pay in two semester installments."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the college timings?",
+        "When does college start?",
+        "College working hours",
+        "Is the college open on weekends?",
+        "Class timings",
+        "When do classes begin?",
+        "Office hours"
+      ],
+      "responses": [
+        "The college timings are from 9:00 AM to 4:00 PM, Monday to Friday. The campus is closed for classes on weekends.",
+        "Classes generally run from 9:00 AM to 4:00 PM on weekdays. Administrative offices are open until 5:00 PM.",
+        "Our academic hours are 9 AM to 4 PM (Mon-Fri). Weekends are off, though labs and libraries may be open for project work."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What are the library timings?",
+        "When is the library open?",
+        "Can I study in the library on Sunday?",
+        "Library working hours",
+        "Does the college have a library?",
+        "Books available",
+        "Digital library"
+      ],
+      "responses": [
+        "The central library is open from 8:00 AM to 8:00 PM on weekdays, and from 10:00 AM to 4:00 PM on weekends.",
+        "Library hours: Mon-Fri: 8 AM - 8 PM, Sat-Sun: 10 AM - 4 PM. We also have an extensive digital library accessible 24/7.",
+        "Yes, our massive central library is open daily! 8 AM to 8 PM on weekdays, giving you plenty of time to study after classes."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Do you have hostel facilities?",
+        "Is there a boy's hostel?",
+        "Tell me about the hostel rooms",
+        "Accommodation available?",
+        "Hostel rules",
+        "Girl's hostel",
+        "Mess food",
+        "Where can I stay?"
+      ],
+      "responses": [
+        "Yes, we have separate, secure hostels for boys and girls with 24/7 security, WiFi, and mess facilities. Rooms are twin-sharing.",
+        "Hostel facilities are available for both boys and girls. The annual fee is $1500, which includes 4 meals a day in the mess.",
+        "Our campus provides excellent residential facilities. The hostels have gyms, rec rooms, and high-speed campus Wi-Fi."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the phone number?",
+        "Admin office contact",
+        "Email address",
+        "Where is the college located?",
+        "College address",
+        "How to reach",
+        "Location"
+      ],
+      "responses": [
+        "You can reach the administration at admin@college.edu or call at +1-800-123-4567. Our campus is located at 123 University Avenue, City Center.",
+        "Contact us at +1-800-123-4567 or email admission@college.edu. Visit our main campus at 123 University Avenue.",
+        "Our address is 123 University Avenue. You can call the reception at +1-800-123-4567 during working hours."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How to take admission?",
+        "What is the admission procedure?",
+        "Can I apply online?",
+        "When do admissions start?",
+        "What is the cutoff?",
+        "Entrance exam required?",
+        "Eligibility criteria"
+      ],
+      "responses": [
+        "Admissions are primarily based on national entrance exam scores (like JEE/SAT). The online application portal opens in May. Visit our website to apply.",
+        "You can apply online through the college website once the admission portal opens in May. Minimum 60% in high school is required for B.Tech.",
+        "The admission process involves applying online, submitting your entrance scores, and attending a brief counseling session. Portal opens in May."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "How are the placements?",
+        "What is the highest package?",
+        "Which companies visit the campus?",
+        "Placement statistics",
+        "Tell me about jobs",
+        "Do you provide internships?",
+        "Average package"
+      ],
+      "responses": [
+        "We have a 95% placement record! Top recruiters include Google, Microsoft, Amazon, and TCS. The highest package last year was $120,000.",
+        "The average package is around $12,000 per annum, with the highest reaching $120,000. Over 200 companies visit our campus for recruitment.",
+        "Our dedicated Placement Cell ensures top-tier internships and job offers. We regularly host career fairs and on-campus recruitment drives."
+      ]
+    },
+    {
+      "tag": "extracurriculars",
+      "patterns": [
+        "Are there any clubs?",
+        "What about sports?",
+        "Extracurricular activities",
+        "Is there a gym?",
+        "Tell me about college fests",
+        "Cultural events",
+        "Dance club",
+        "Coding club"
+      ],
+      "responses": [
+        "We have over 30 active student clubs including Robotics, Coding, Drama, Music, and Debate. We also host a massive annual tech-fest!",
+        "Sports facilities are excellent! We have a cricket ground, basketball courts, and an indoor stadium. Our annual sports meet happens in February.",
+        "Clubs and extracurriculars are a huge part of our campus life. You can join the Google Developer Student Club, the Arts Society, or our varsity sports teams."
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "Is there college transport?",
+        "Do you provide bus service?",
+        "Bus routes",
+        "Transport fees",
+        "How to commute to college?",
+        "College bus"
+      ],
+      "responses": [
+        "Yes, we provide a fleet of college buses covering all major routes in the city. The transport fee is $300 per semester.",
+        "College bus services are available for day scholars. The buses cover a 50km radius around the city. You can apply for a bus pass at the admin office.",
+        "We have excellent transport facilities. Safe and secure college buses operate morning and evening on over 20 different municipal routes."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Do you offer scholarships?",
+        "Financial aid",
+        "How to get a fee waiver?",
+        "Are there any merit scholarships?",
+        "Scholarship criteria"
+      ],
+      "responses": [
+        "Yes, we offer up to 100% tuition fee waivers for top rankers in the entrance exams, as well as sports scholarships.",
+        "Financial aid and merit-based scholarships are available. Students maintaining a CGPA above 9.0 are automatically eligible for the Dean's Scholarship.",
+        "We have numerous scholarship programs based on merit, financial need, and athletic achievements. Contact the financial aid office for details."
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Is there a canteen?",
+        "What about cafeteria?",
+        "Food inside college",
+        "Are there food courts?",
+        "Cafeteria menu",
+        "Where to eat on campus?"
+      ],
+      "responses": [
+        "We have a multi-cuisine central cafeteria and several smaller food courts spread across the campus offering hygienic and affordable meals.",
+        "The college has 3 cafeterias, a coffee shop, and a juice bar! You'll never run out of food options on campus.",
+        "Yes, our massive food court serves everything from traditional meals to fast food. It's the ultimate hangout spot for students."
+      ]
+    }
+  ]
+}
